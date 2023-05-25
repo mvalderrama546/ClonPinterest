@@ -1,0 +1,77 @@
+#navbar-pinterest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff; /* ajusta el color de fondo según tus necesidades */
+}
+
+.buscador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc; /* Agrega un borde */
+  width: 400px; /* Ajusta el ancho deseado */
+  padding: 10px; /* Agrega un espacio interno */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.svg_pinterest{
+    fill: red;
+}
+
+@media (min-width: 900px){
+  .card-image {
+    columns: 3;
+    column-gap: 3px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.contenido {
+  columns: 3;
+  margin: 20px;
+  column-gap: 3px;
+}
+
+
+.card-image {
+  columns: 3;
+  margin: 20px;
+  column-gap: 3px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px ;
+}
+
+
+#pinterest {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Agrega espacio entre los elementos */
+}
+
+#icons > * {
+  margin-right: 10px; /* Ajusta el espacio entre los botones */
+
+}
+
+#links {
+  /* Estilos para los enlaces o elementos de navegación */
+}
+
+.buscador {
+  /* Estilos para el buscador */
+  display: flex;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
